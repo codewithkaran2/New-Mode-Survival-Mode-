@@ -67,7 +67,7 @@ function startGame() {
       }
     });
   } else if (gameMode === "survival") {
-    loadScript("survival.js", function () {
+    loadScript("survivalMode.js", function () {
       if (typeof survivalStartGame === "function") {
         survivalStartGame();
       } else {
